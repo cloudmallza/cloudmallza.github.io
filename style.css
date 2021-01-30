@@ -1432,3 +1432,21 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 
 #supersized li.image-loading img{ visibility:hidden; }
 #supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
+
+.pulsate {
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.2;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
