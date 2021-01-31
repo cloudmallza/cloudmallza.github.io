@@ -1433,8 +1433,9 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 #supersized li.image-loading img{ visibility:hidden; }
 #supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
 
+ 
 .pulsate {
-  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation: pulsate 1.5s ease-out;
   -webkit-animation-iteration-count: infinite;
   opacity: 0.2;
 }
@@ -1449,4 +1450,11 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   100% {
     opacity: 0.2;
   }
+}
+
+.instagram .fa {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
