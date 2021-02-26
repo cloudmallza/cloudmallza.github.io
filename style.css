@@ -13,7 +13,7 @@ body{
 .placeholder { color: #aaa; }
 
 #cspio-page{
-	padding-top:60px;
+	padding-top:5px;
 	padding-bottom:0px;
 	padding-left:10px;
 	padding-right:10px;
@@ -22,7 +22,7 @@ body{
 
 .flexbox #cspio-page{
 	display:flex;
-	padding:10px;
+	padding:5px;
 }
 
 .flexbox #cspio-content{
@@ -43,7 +43,7 @@ body{
 /* Content Elements */
 #cspio-content{
 	width:100%;
-	padding:30px;
+	padding:20px;
 	margin:0 auto;
 }
 
@@ -115,23 +115,6 @@ body{
 	vertical-align:top;
 	overflow: hidden;
 	padding: 0 5px;
-}
-
-#share_facebook{
-	width: 65px;
-}
-
-#share_facebook_send{
-	margin-left:7px ;
-	margin-right: 4px;
-}
-
-#share_googleplus{
-	width: 45px;
-}
-
-#share_pinterest{
-	width: 50px;
 }
 
 .fb-share-button span{
