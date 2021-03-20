@@ -31,7 +31,7 @@ body{
 
 /* Margins */
 #cspio-description,#cspio-logo, #cspio-socialprofiles,#cspio-privacy-policy-txt, #cspio-headline,#cspio-progressbar,#cspio-countdown,#cspio-thankyoumsg,#cspio-sharebuttons,#cspio-afterform{
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 /* Responsive Images */
