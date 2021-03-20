@@ -17,7 +17,7 @@ body{
 	padding-bottom:0px;
 	padding-left:10px;
 	padding-right:10px;
- 	min-height: 100%;
+ 	/* min-height: 100%; */
 }
 
 .flexbox #cspio-page{
