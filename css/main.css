@@ -1340,7 +1340,7 @@ header .logo a {
 .intro-content h2 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 4.2rem;
+	font-size: 2.2rem;
 	line-height: 1.071;
 	max-width: 900px;
 	margin-top: 0;
@@ -1532,7 +1532,7 @@ header .logo a {
 }
 
 .cloud-mall-img {
-    max-width:25%;
+    max-width:30%;
     height:auto;
 }
 
