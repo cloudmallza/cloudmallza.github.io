@@ -2323,10 +2323,11 @@ header .logo a {
 	font-size: 1.5rem;
 	text-align: center;
 }
-.contact-info .collapse {
+/* .contact-info .collapse {
 	padding: 0;
-}
+} */
 .contact-info .icon {
+	margin-top: 2.1rem;
 	margin-bottom: 2.1rem;
 }
 .contact-info .icon i {
