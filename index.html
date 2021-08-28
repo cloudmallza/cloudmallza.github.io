@@ -1,429 +1,218 @@
 <!DOCTYPE html>
-<html class="cspio">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Cloud Mall ZA</title>
 
-	<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Cloud Mall ZA</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
 
-	<meta property="og:url" content="" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Cloud Mall ZA coming soon" />
-	<meta property="og:description" content="" />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+   <!-- mobile specific metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="style.css">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
 
-	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Ubuntu:400&subset=' rel='stylesheet' type='text/css'>
-			
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="animate.min.css">
-	<link rel="stylesheet" href="font-awesome-animation.min.css">
+   <!-- script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="js/pace.min.js"></script>
 
-	<!--JQuery-->  
-	<script type="text/javascript" src="jquery-3.3.1.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<!--Floating WhatsApp css-->  
-	<link rel="stylesheet" href="floating-wpp.min.css">  
-	<!--Floating WhatsApp javascript-->  
-	<script type="text/javascript" src="floating-wpp.min.js"></script>
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   <!-- favicons
+	================================================== -->
+   <link rel="icon" type="image/png" href="favicon.png">
 
-	<!-- Calculated Styles -->
-	<style type="text/css">
-
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
-
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-	
-	html{
-		height:100%;
-		background: url(./resources/coral-ouellette-J6NhmPlHk6I-unsplash.jpg);
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-	
-	.flexbox #cspio-page{
-		align-items: center;
-		justify-content: center;
-	}
-
-	.cspio body{
-		background: transparent;
-	}
-
-	.cspio body, .cspio body p{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-        font-size: 16px;
-        line-height: 1.50em;
-        color:#ffffff;
-    }
-
-	::-webkit-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-	}
-
-	::-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-	} 
-
-	:-ms-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-	} 
-
-	:-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-    .cspio h1, .cspio h2, .cspio h3, .cspio h6, .cspio h7{
-        font-family: 'Pacifico';
-        color:#ffffff;
-    }
-
-	#cspio-headline{
-		font-family: 'Pacifico';
-		font-weight: 400;
-		font-size: 18px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
-
-	.cspio button{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-    }
-	
-    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-		color: #ffffff;
-	}
-
-	#cspio-socialprofiles a {
-	  color: #ffffff;
-	}
-
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary.disabled,
-	.cspio .btn-primary[disabled],
-	.cspio .btn-primary:focus:hover,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.cspio .btn-primary:focus.disabled,
-	.cspio .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
-
-	.form-control,
-	.progress {
-		background-color: rgba(255, 255, 255, 0.85);
-	}
-
-	#cspio-progressbar span,
-	.countdown_section {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
-
-	.cspio input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
-    
-    #cspio-content {
-		display: none;
-		max-width: 600px;
-		background-color: #000000;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		-moz-background-clip: padding;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		background-color:transparent;
-	}
-    
-	.cspio .progress-bar,
-	.countdown_section,
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button {
-		background-image: none;
-		text-shadow: none;
-	}
-
-	.cspio input,
-	.cspio input:focus {
-		-webkit-box-shadow: none !important;
-		box-shadow: none !important;
-	}
-							
-	#cspio-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
-
-	.cspio body{
-		font-family: 'Ubuntu';
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
-	}
-
-	#cspio-subscribe-btn{
-	    background:transparent;
-	    border: 1px solid #fff !important;
-	    color: #fff;
-	}
-
-	#cspio-subscribe-btn:hover{
-	    background: rgba(255,255,255,0.2);
-	    color: #fff;
-	}
-
-	#cspio-credit img{
-		margin-left:auto;
-		margin-right:auto;
-		width:125px;
-		margin-top: -4px;
-	}
-
-	#cspio-credit {
-		font-size:11px;
-	}
-
-	</style>
-
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	
-	<!-- Google Analytics Code Goes Here-->
 </head>
-<body>
-	<div id="cspio-page">
-		<div id="cspio-content">
-			
-			<img id="cspio-logo" src="./resources/cloudmall_blue.png">
-			<br>
-			<!-- <h6 id="cspio-headline">Site under construction<i style="color:lightgrey" class="fa fa-wrench faa-wrench animated faa-slow"></i></h6>			    				 -->
-			<!-- <h6 id="cspio-headline">Site under construction<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_lyeifqrp.json"  background="transparent"  speed="1.2"  style="width: 80px; height: 80px; margin: auto" loop autoplay></lottie-player>			    				
-			</h6> -->
-			
-			<!-- <div id="cspio-description">To shop now click on this shopping bag <a style="color:#d4af37" class="pulsate" href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" target="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA"><i class="fa fa-shopping-bag fa-2x"></i></a>			
-				to view our bidorbuy listings</div>			    				 -->
-			    						    
-			<!-- <div id="cspio-description">To shop now click on this plane <a href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" target="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA"><i class="fa fa-plane faa-float animated fa-2x"></i></a>			
-				and fly to our bidorbuy listings</div>			    				 -->
-																							
-			
-  			  <div id="cspio-description">Verified bidorbuy seller.<br><br>Click to shop: <br><br><a href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" rel="nofollow">
-				<img style="width: 50px;" src="https://www.bidorbuy.co.za/images/site/seller/bob_verified_seller.png" alt="I am a verified seller on bidorbuy.co.za">
-			  </a></div>
-			
-			<!-- <div id="cspio-description">To shop now click on this plane <a href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" target="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA"><i class="fa fa-plane fa-2x"></i></a>			
-				and fly to our bidorbuy listings</div>			    						 -->
-			
-			<!-- <h5> Follow on: <a href="https://www.instagram.com/cloudmallza/"><i class="fa fa-instagram fa-1x"></i></a> and like our: <a href="https://fb.me/cloudmallzafb"><i class="fa fa-facebook fa-1x"></i></a> so you don't miss out on our promotions!</h5> -->
-			
-			<!-- <h5>Visit our social media, or contact us by clicking on any of the above icons</h5> -->
 
-			<div id="cspio-description">Click to contact:</div>
-			<div id="cspio-socialprofiles">
-				<!-- <a style="color:#006994" class="pulsate" href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" target="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA"><i class="fa fa-shopping-bag fa-3x"></i></a>			 -->
-				<!-- <a style="color:#3b5998" href="https://fb.me/cloudmallzafb"><i class="fa fa-facebook-square fa-2x"></i></a> -->
-				<a class="instagram" href="https://www.instagram.com/cloudmallza/"><i class="fa fa-instagram fa-2x"></i></a>
-				<a style="color:lightgrey" href="https://fb.me/cloudmallzafb"><i class="fa fa-facebook-square fa-2x"></i></a>
-				<a style="color:#25D366" href="https://api.whatsapp.com/send?
-				phone=27788816609
-				&text=Please send me more information regarding"
-				   class="float" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>			
-				<a style="color:#22A7F0" href="mailto:cloudmallza@outlook.com?subject=Inquiry" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>		
-				
+<body id="top">
+
+	<!-- header
+   ================================================== -->
+   <header>
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<!-- <div class="logo">
+		         <a href="index.html">Cloud Mall ZA</a>
+		      </div>			 -->
+
+		   	<nav id="main-nav-wrap">
+				<ul class="main-navigation">
+					<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+					<li><a class="smoothscroll"  href="#about" title="">Who are we?</a></li>
+					<li><a target="_blank" href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA">Shop now</a></li>
+					<li><a target="_blank" href="https://www.bidorbuy.co.za/user/4387286/CloudMallZA">Ratings</a></li>
+					<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+				</ul>
+			</nav>
+   		</div> <!-- /top-bar -->
+
+   	</div> 
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
+
+   	<div class="intro-overlay"></div>
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+				<img class="cloud-mall-img" src="images/cloud_logo.png" alt="Cloud Mall ZA">
+
+				<h2>Your mall in the cloud</h2>
+
+	   			<a class="button stroke" href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA">Shop now</a>
+
+	   		</div>
+
+   		</div>
+   	</div> <!-- /intro-content -->
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Your mall in the cloud.</h5>
+
+   			<div class="intro-info">
+
+   				<!-- <img src="images/cloud_logo.png" alt="Cloud Mall ZA"> -->
+
+   				<p class="lead">We are a new South African retailer
+					   specializing in LEGO, Hasbro, Disney, Chelino, Bright Starts and we're constantly growing.
+					   Our primary focus is great customer service & quick delivery! Thanks to our courier
+					   partner we're able to deliver anywhere in South Africa. If there's a particular
+					   set you're looking for please reach out via Instagram or email & our team will endevour to source it for you at the lowest cost possible! </p>
+			
 			</div>
 
-			<!-- Carousel -->
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3100">
-			
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-				  <div class="item active">
-					<h5>Speedy delivery, product as expected<br> and in good order. Highly recommend<br>- twixiepix (bidorbuy)</h5>
-				  </div>				  
-				  <div class="item">
-					<h5>RECEIVED PARCEL WITHIN 24 HOURS<br> OF ORDERING. AMAZING SERVICE.<br> THANKS A MILLION<br>- jay master jay (bidorbuy)</h5>
-				  </div>				  
-				  <div class="item">
-					<h5>Great seller fast, follows up,<br> responds quickly,<br> was a great experience...<br>- Troz (bidorbuy)</h5>
-				  </div>					  
-				  <div class="item">
-					<h5>Absolutely amazing seller !!!!!!!<br>- keerom (bidorbuy)</h5>
-				  </div>						  
-				  <div class="item">
-					<h5>A++++ seller. Great communication,<br> fast shipment,<br> goods perfect as described!<br> Deal with confidence!<br>- Marco1 (bidorbuy)</h5>
-				  </div>							  
-				  <div class="item">
-					<h5>Fast delivery,<br> and good communication A++++.<br>- FrankFaurie (bidorbuy)</h5>
-				  </div>							  
-				  <div class="item">
-					<h5>I had a very pleasant experience<br> engaging with CloudMallZA.<br> They were very accommodating, polite,<br> and professional. Excellent service!<br>- aronim (bidorbuy)</h5>
-				  </div>							  
-				  <div class="item">
-					<h5>Fast delivery! Thanks.<br>- 544D13Q (bidorbuy)</h5>
-				  </div>								  
-				  <div class="item">
-					<h5>Good communication,<br> quick turnaround, thanks!<br>- henkmulder75 (bidorbuy)</h5>
-				  </div>								  
-				  <div class="item">
-					<h5>Very impressed with the service received.<br> Great seller!<br>- 544D13Q (bidorbuy)</h5>
-				  </div>	 
-				  <div class="item">
-					<h5>Same day delivery! Great service. <br>- RukOma4382 (bidorbuy)</h5>
-				  </div>
-				  <div class="item">
-					<h5>Thank you. Fast service fair postage. <br>- Reinhard7 (bidorbuy)</h5>
-				  </div>
-				  <div class="item">
-					<h5>Quick delivery and great service! <br>- NadMar9002 (bidorbuy)</h5>
-				  </div>			
-				  <div class="item">
-					<h5>fast delivery and package <br>received in perfect condition! <br>- RukOma4382 (bidorbuy)</h5>
-				  </div>				  
-				  <div class="item">
-					<h5>A+ seller. Quick delivery, <br>excellent service and response.<br> Can definitely recommend! <br>- zaheda87 (bidorbuy)</h5>
-				  </div>
-				  <div class="item">
-					<h5>Super fast response to questions, <br>good communication <br>and very efficient delivery. <br>Will buy from you again. <br>- MehKha3934 (bidorbuy)</h5>
-				  </div>
-				  <div class="item">
-					<h5>My online purchase experience <br>is receiving a 10/10.<br>With up-to-date feedback I felt like <br>the most important customer.<br> The delivery was within 12hour <br>- ursrey5792 (bidorbuy)</h5>
-				  </div>
-				  <div class="item">
-					<h5>Great product. Good condition.<br> Quick response and fast delivery<br> from Cloud Mall ZA.<br><br> Excellent service. Thank you! <br>- ChrMal4942 (bidorbuy)</h5>
-				  </div>
-				</div>
-			  
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				  <span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				  <span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			  </div> 
-			  <br>
-			  <!-- Carousel -->
-			
-		</div>
-	</div>
+			<a href="https://www.bidorbuy.co.za/seller/4387286/CloudMallZA" rel="nofollow">
+				<img style="width: 50px;" src="https://www.bidorbuy.co.za/images/site/seller/bob_verified_seller.png" alt="I am a verified seller on bidorbuy.co.za">
+			</a>
+
+   		</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="https://www.instagram.com/cloudmallza/" title="Instagram" class="button stroke">Instagram</a>
+   			<a href="mailto:cloudmallza@outlook.com?subject=Inquiry" target="_blank" title="Email" class="button button-primary">Email</a>
+   		</div>
+   	</div>
+
+   </section> 
+   <!-- /about-->
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+   	<div class="row section-intro">
+		<div class="col-twelve">
+   			<h5>Contact</h5>
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where are we?</h5>
+
+   			<p class="links">
+           We're based in Johannesburg,
+		   but we deliver country-wide!
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Send us an email</h5>
+
+   			<a class="links" href="mailto:cloudmallza@outlook.com?subject=Inquiry" target="_blank" title="Email">cloudmallza@outlook.com</a>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>WhatsApp</h5>
+   		
+			<a class="links" href="https://api.whatsapp.com/send?
+			phone=27788816609
+			&text=Please send me more information regarding"
+				class="float" target="_blank">0788816609</a>
+
+   		</div>
+
+   	</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
 
 
-	<script>
-		// Animate Delay
-		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+   <!-- footer
+   ================================================== -->
 
-		// Reseize	
-		function resize(){
-				$('head').append("<style id='form-style' type='text/css'></style>");
-				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-		}
-		
-		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
-			function(){
-				var width = $('#cspio-field-wrapper').width();
-				if(width < 480 && width != 0){
-					resize();
-				}
-			}
-		);
-	</script>
+   <footer>
+     	<div class="row">
 
-	<div class="loader-wrapper">
-		<span class="loader"><span class="loader-inner"></span></span>
-	</div>
+			<div class="col-six tab-full pull-right social">
 
-	<script>
-		$(window).on("load",function(){
-     		$(".loader-wrapper").fadeOut("slow");
-		});
-	</script>
-	
+				<ul class="footer-social">
+					<li><a target="_blank"href="https://www.instagram.com/cloudmallza/"><i class="fa fa-instagram"></i></a></li>
+					<li><a target="_blank"href="https://fb.me/cloudmallzafb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>	
+				</ul>
+
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+      	</div> 
+   </footer>
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
