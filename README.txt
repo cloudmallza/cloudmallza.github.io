@@ -1,1 +1,0 @@
-Cloud Mall ZA - all rights reserved.
